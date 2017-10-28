@@ -65,7 +65,6 @@ class Csomopont {
  */
 public final class Future_d {
   private static List<Csomopont> graph;        
-private static int iterations = 300;
 public Future_d(){
         Future_d.graph = new ArrayList<>();
         readFiles("City");
