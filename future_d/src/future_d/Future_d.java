@@ -97,7 +97,6 @@ int size = graph.size();
             System.out.println(i + ". iteration");
             myVec = myVec.times(myMatrix);
             myVec.print(5,8);
-            //System.out.printf("%.8f ",myVec.trace());
             System.out.println();
         }
         System.out.println();
