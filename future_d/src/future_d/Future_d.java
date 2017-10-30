@@ -96,8 +96,10 @@ int size = graph.size();
         for (int i = 0; i <= iterations; i++){
             System.out.println(i + ". iteration");
             myVec = myVec.times(myMatrix);
-            myVec.print(5,8);
+           myVec.print(5,8);
             System.out.printf("%.2f ",myVec.transpose().norm1());
+            System.out.println();
+        }
         System.out.println();
     }
     
