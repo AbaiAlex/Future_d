@@ -22,8 +22,7 @@ public Future_d(){
        Matrix myVec = createVector();
         Matrix myMatrix = createMatrix();
         iterations(myVec,myMatrix);
-      //System.out.println("A sztochasztikus mátrix:");
-       //myMatrix.trace();
+     
 
 }
  public int osszes(){    
