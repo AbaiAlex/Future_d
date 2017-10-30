@@ -1,4 +1,3 @@
-
 package future_d;
 
 import Jama.Matrix;
@@ -22,7 +21,7 @@ public Future_d(){
        Matrix myVec = createVector();
         Matrix myMatrix = createMatrix();
         iterations(myVec,myMatrix);
-     
+     myMatrix.print(5,5);
 
 }
  public int osszes(){    
@@ -79,7 +78,7 @@ int size = graph.size();
         for (int i = 0; i < size; i++){
             double linksCount = graph.get(i).getLinks().size();
             for (int j = 0; j < linksCount; j++){
-                String actual = graph.get(i).getLink(j) + "City/Debrecen";
+                String actual = "City/Debrecen" + graph.get(i).getLink(j);
                 for (int k = 0; k < size; k++) {
                     if (actual.equals(graph.get(k).getName())) {
                         array[i][k] = 1.0/linksCount;   
@@ -114,4 +113,3 @@ int size = graph.size();
 }
 
 }
-

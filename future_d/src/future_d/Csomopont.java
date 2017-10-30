@@ -32,7 +32,7 @@ public class Csomopont {
         this.links = links;
     }
     public Csomopont(String name){
-        this.name = name.replaceAll("/home/abaialex/NetBeansProjects/Future_d/","");
+        this.name = name.replaceAll("/home/abaialex/NetBeansProjects/future_d/","");
         this.number = 0;
         this.links = new ArrayList<>();
     }
